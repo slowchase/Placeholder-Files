@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Newsletter subscription page">
+  <title>Newsletter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero" aria-labelledby="page-title">
+      <h1 id="page-title">placeholder</h1>
+
+      <p class="intro">
+        placeholder&nbsp;&nbsp; text&nbsp;&nbsp; placeholder&nbsp;&nbsp; text&nbsp;&nbsp;
+        placeholder&nbsp;&nbsp; text&nbsp;&nbsp; placeholder&nbsp;&nbsp; text
+        placeholder&nbsp;&nbsp; text&nbsp;&nbsp; placeholder&nbsp;&nbsp; text&nbsp;&nbsp;
+        placeholder&nbsp;&nbsp; text&nbsp;&nbsp; placeholder&nbsp;&nbsp; text
+        placeholder&nbsp;&nbsp; text&nbsp;&nbsp; placeholder&nbsp;&nbsp; text&nbsp;&nbsp;
+        placeholder&nbsp;&nbsp; text&nbsp;&nbsp; placeholder&nbsp;&nbsp; text
+        placeholder&nbsp;&nbsp; text&nbsp;&nbsp; placeholder&nbsp;&nbsp; text&nbsp;&nbsp;
+        placeholder&nbsp;&nbsp; text&nbsp;&nbsp; placeholder&nbsp;&nbsp; text
+        placeholder&nbsp;&nbsp; text&nbsp;&nbsp; placeholder&nbsp;&nbsp; text&nbsp;&nbsp;
+        placeholder&nbsp;&nbsp; text&nbsp;&nbsp; placeholder&nbsp;&nbsp; text
+      </p>
+
+      <form id="subscribe-form" class="subscribe-form" novalidate>
+        <label class="sr-only" for="email">Email address</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          autocomplete="email"
+          placeholder="email"
+          required
+        >
+        <button type="submit">subscribe</button>
+        <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
